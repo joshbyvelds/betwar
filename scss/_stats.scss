@@ -1,0 +1,40 @@
+.stats{
+    position: relative;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    background: #BBB;
+
+    .avatar{
+        position: absolute;
+        display: block;
+        width: 150px;
+        height: 150px;
+        border: solid 2px black;
+        border-radius: 20px;
+        background: white;
+
+        &.left{
+            top: 8px;
+            left: 30px;
+        }
+
+        &.right{
+            bottom: 8px;
+            right: 30px;
+        }
+    }
+
+    .money{
+        font-size: 42px;
+    }
+
+    .rounds_won{
+        color: green;
+    }
+
+    .rounds_lost{
+        color: red;
+    }
+}
